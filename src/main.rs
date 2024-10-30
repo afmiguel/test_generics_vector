@@ -1,7 +1,7 @@
 fn primeiro_i32(lista: &Vec<i32>) -> &i32 {
     lista.get(0).expect("A lista está vazia")
 }
-fn primeiro_string(lista: &[String]) -> &String {
+fn primeiro_string(lista: &Vec<String>) -> &String {
     lista.get(0).expect("A lista está vazia")
 }
 

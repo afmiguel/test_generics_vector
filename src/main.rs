@@ -1,3 +1,4 @@
+// Unify the two functions into a generic one
 fn first_i32(list: &Vec<i32>) -> &i32 {
     list.get(0).expect("The list is empty")
 }
